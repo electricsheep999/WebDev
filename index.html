@@ -165,13 +165,80 @@
           </thead>
           <tbody>
             <tr>
-              <td rowspan="2">align-content</td>
+              <th colspan="3">major axis (horizontal align)</th>
+            </tr>
+            <tr>
+              <td>justify-content</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>flex-wrap</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>flex-grow</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>flex-shrink</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th colspan="3">cross axis (vertical align)</th>
+            </tr>
+            <tr>
+              <td>align-items</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td rowspan="6">align-content</td>
               <td>flex-start</td>
-              <td>all rows of elements will be positioned at the top of the parent container with no extra space between.</td>
+              <td>elements will be positioned at the top of the parent container with no space in-between.</td>
             </tr>
             <tr>
               <td>flex-end</td>
-              <td>all rows of elements will be positioned at the bottom of the parent container with no extra space between.</td>
+              <td>elements will be positioned at the bottom of the parent container with no space in-between.</td>
+            </tr>
+            <tr>
+              <td>center</td>
+              <td>elements will be positioned at the center of the parent container with no space in-between.</td>
+            </tr>
+            <tr>
+              <td>space-between</td>
+              <td>elements will be positioned on top and bottom with space between them.</td>
+            </tr>
+            <tr>
+              <td>space-around</td>
+              <td>elements will be positioned with even space between them and from top and bottom.</td>
+            </tr>
+            <tr>
+              <td>stretch</td>
+              <td>if min-height or no height is specified, elements will stretch to fill the gap between top and bottom of parent container.</td>
+            </tr>
+            <tr>
+              <th colspan="3">Other</th>
+            </tr>
+            <tr>
+              <td rowspan="4">flex-direction</td>
+              <td>row</td>
+              <td>default value: elements will be positioned as a row</td>
+            </tr>
+            <tr>
+              <td>row-reverse</td>
+              <td>elements will be positioned in a row from right to left</td>
+            </tr>
+            <tr>
+              <td>column</td>
+              <td>starting from top left corner elements will be stacked in a column</td>
+            </tr>
+            <tr>
+              <td>column-reverse</td>
+              <td>starting from bottom left corner elements will be stacked from the bottom</td>
             </tr>
           </tbody>
 
